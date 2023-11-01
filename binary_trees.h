@@ -48,4 +48,7 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 /* 10. Depth */
 size_t binary_tree_depth(const binary_tree_t *tree);
 
+/* 11. Size */
+size_t binary_tree_size(const binary_tree_t *tree);
+
 #endif  /* _BINARY_TREES_H_ */
