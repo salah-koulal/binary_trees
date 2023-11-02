@@ -50,6 +50,11 @@ int binary_tree_is_leaf(const binary_tree_t *node);
 int binary_tree_is_root(const binary_tree_t *node);
 /* 6. Pre order */
 void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
+/* 7. in order*/
+void binary_tree_inorder(const binary_tree_t *tree, void (*func)(int));
+/* 8. post order */
+void binary_tree_postorder(const binary_tree_t *tree, void (*func)(int));
+
 /* 9. Height */
 size_t binary_tree_height(const binary_tree_t *tree);
 
